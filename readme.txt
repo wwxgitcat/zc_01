@@ -25,7 +25,7 @@ Submit URL				网关地址，可登陆http://login.realypay.com，选择“网�
 8.若支付页面尺寸或样式与网站模板不合，请自行更改以下文件：includes\templates\template_default\templates\tpl_real_time_pay_default.php
   搜索width:430px; 更改为合适的宽度
 
-技术支持：QQ2355282224 
+
 
 错误代码:
 SYSTEM_ERROR		未知错误
