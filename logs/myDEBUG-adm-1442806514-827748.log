@@ -1,0 +1,8 @@
+[21-Sep-2015 03:35:14 UTC] PHP Warning:  reset() expects parameter 1 to be array, null given in E:\wamp\www\jptempAjp\admins123\template_select.php on line 242
+[21-Sep-2015 03:35:14 UTC] PHP Stack trace:
+[21-Sep-2015 03:35:14 UTC] PHP   1. {main}() E:\wamp\www\jptempAjp\admins123\template_select.php:0
+[21-Sep-2015 03:35:14 UTC] PHP   2. reset() E:\wamp\www\jptempAjp\admins123\template_select.php:242
+[21-Sep-2015 03:35:14 UTC] PHP Warning:  Variable passed to each() is not an array or object in E:\wamp\www\jptempAjp\admins123\template_select.php on line 243
+[21-Sep-2015 03:35:14 UTC] PHP Stack trace:
+[21-Sep-2015 03:35:14 UTC] PHP   1. {main}() E:\wamp\www\jptempAjp\admins123\template_select.php:0
+[21-Sep-2015 03:35:14 UTC] PHP   2. each() E:\wamp\www\jptempAjp\admins123\template_select.php:243

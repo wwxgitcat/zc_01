@@ -1,0 +1,29 @@
+[25-Dec-2015 17:24:23 PRC] PHP Fatal error:  1146:Table 'shujuku.products' doesn't exist :: select products_price, products_priced_by_attribute from products where products_id = '3660' in D:\WWW\zc_new\includes\classes\db\mysql\query_factory.php on line 141
+[25-Dec-2015 17:24:23 PRC] PHP Stack trace:
+[25-Dec-2015 17:24:23 PRC] PHP   1. {main}() D:\WWW\zc_new\admins123\easypopulate.php:0
+[25-Dec-2015 17:24:23 PRC] PHP   2. ep_update_prices() D:\WWW\zc_new\admins123\easypopulate.php:2704
+[25-Dec-2015 17:24:23 PRC] PHP   3. zen_update_products_price_sorter() D:\WWW\zc_new\admins123\includes\functions\extra_functions\easypopulate_functions.php:236
+[25-Dec-2015 17:24:23 PRC] PHP   4. zen_get_products_actual_price() D:\WWW\zc_new\admins123\includes\functions\general.php:2987
+[25-Dec-2015 17:24:23 PRC] PHP   5. zen_get_products_base_price() D:\WWW\zc_new\admins123\includes\functions\functions_prices.php:1162
+[25-Dec-2015 17:24:23 PRC] PHP   6. queryFactory->Execute() D:\WWW\zc_new\admins123\includes\functions\functions_prices.php:143
+[25-Dec-2015 17:24:23 PRC] PHP   7. queryFactory->set_error() D:\WWW\zc_new\includes\classes\db\mysql\query_factory.php:273
+[25-Dec-2015 17:24:23 PRC] PHP   8. queryFactory->show_error() D:\WWW\zc_new\includes\classes\db\mysql\query_factory.php:124
+[25-Dec-2015 17:24:23 PRC] PHP   9. trigger_error() D:\WWW\zc_new\includes\classes\db\mysql\query_factory.php:141
+[25-Dec-2015 17:24:23 PRC] PHP Fatal error:  1146:Table 'shujuku.sessions' doesn't exist :: select count(*) as total
+            from sessions
+            where sesskey = '0vu540e1ql0um3hfvt89fu4is6' in D:\WWW\zc_new\includes\classes\db\mysql\query_factory.php on line 141
+[25-Dec-2015 17:24:23 PRC] PHP Stack trace:
+[25-Dec-2015 17:24:23 PRC] PHP   1. {main}() D:\WWW\zc_new\admins123\easypopulate.php:0
+[25-Dec-2015 17:24:23 PRC] PHP   2. ep_update_prices() D:\WWW\zc_new\admins123\easypopulate.php:2704
+[25-Dec-2015 17:24:23 PRC] PHP   3. zen_update_products_price_sorter() D:\WWW\zc_new\admins123\includes\functions\extra_functions\easypopulate_functions.php:236
+[25-Dec-2015 17:24:23 PRC] PHP   4. zen_get_products_actual_price() D:\WWW\zc_new\admins123\includes\functions\general.php:2987
+[25-Dec-2015 17:24:23 PRC] PHP   5. zen_get_products_base_price() D:\WWW\zc_new\admins123\includes\functions\functions_prices.php:1162
+[25-Dec-2015 17:24:23 PRC] PHP   6. queryFactory->Execute() D:\WWW\zc_new\admins123\includes\functions\functions_prices.php:143
+[25-Dec-2015 17:24:23 PRC] PHP   7. queryFactory->set_error() D:\WWW\zc_new\includes\classes\db\mysql\query_factory.php:273
+[25-Dec-2015 17:24:23 PRC] PHP   8. queryFactory->show_error() D:\WWW\zc_new\includes\classes\db\mysql\query_factory.php:124
+[25-Dec-2015 17:24:23 PRC] PHP   9. trigger_error() D:\WWW\zc_new\includes\classes\db\mysql\query_factory.php:141
+[25-Dec-2015 17:24:23 PRC] PHP  10. _sess_write() D:\WWW\zc_new\includes\functions\sessions.php:0
+[25-Dec-2015 17:24:23 PRC] PHP  11. queryFactory->Execute() D:\WWW\zc_new\includes\functions\sessions.php:76
+[25-Dec-2015 17:24:23 PRC] PHP  12. queryFactory->set_error() D:\WWW\zc_new\includes\classes\db\mysql\query_factory.php:273
+[25-Dec-2015 17:24:23 PRC] PHP  13. queryFactory->show_error() D:\WWW\zc_new\includes\classes\db\mysql\query_factory.php:124
+[25-Dec-2015 17:24:23 PRC] PHP  14. trigger_error() D:\WWW\zc_new\includes\classes\db\mysql\query_factory.php:141

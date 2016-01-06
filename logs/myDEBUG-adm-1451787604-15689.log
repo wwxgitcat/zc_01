@@ -1,0 +1,4 @@
+[03-Jan-2016 10:20:05 PRC] PHP Warning:  Variable passed to each() is not an array or object in D:\WWW\zc_new\admins123\template_select.php on line 309
+[03-Jan-2016 10:20:05 PRC] PHP Stack trace:
+[03-Jan-2016 10:20:05 PRC] PHP   1. {main}() D:\WWW\zc_new\admins123\template_select.php:0
+[03-Jan-2016 10:20:05 PRC] PHP   2. each() D:\WWW\zc_new\admins123\template_select.php:309

@@ -1,0 +1,4 @@
+[31-Aug-2015 03:09:34 UTC] PHP Warning:  Variable passed to each() is not an array or object in D:\wamp\www\jptempAjp\admins123\template_select.php on line 309
+[31-Aug-2015 03:09:34 UTC] PHP Stack trace:
+[31-Aug-2015 03:09:34 UTC] PHP   1. {main}() D:\wamp\www\jptempAjp\admins123\template_select.php:0
+[31-Aug-2015 03:09:34 UTC] PHP   2. each() D:\wamp\www\jptempAjp\admins123\template_select.php:309

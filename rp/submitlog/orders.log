@@ -1,0 +1,15 @@
+Order creating
+Order created:1
+CURL Requesting
+CURL Requested:200
+1:{"order_sn":"1","result":"error","message":"WRONG_SITEID"}
+Order creating
+Order created:1
+CURL Requesting
+CURL Requested:200
+1:{"order_sn":"1","result":"error","message":"WRONG_SITEID"}
+Order creating
+Order created:1
+CURL Requesting
+CURL Requested:200
+1:{"order_sn":"1","result":"error","message":"WRONG_SITEID"}
